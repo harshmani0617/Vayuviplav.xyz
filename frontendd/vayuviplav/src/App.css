@@ -1,0 +1,7 @@
+.firstblock{
+    background: url('/public/nature-1.jpg');
+}
+.firstblock::after{
+    background: url('/public/nature-1.jpg');
+    opacity: 0.5;
+}
