@@ -5,3 +5,41 @@
     background: url('/public/nature-1.jpg');
     opacity: 0.5;
 }
+
+.ticker {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .breaking-label {
+    font-weight: bold;
+    background-color: red; /* Set background color to red */
+    color: white; /* Set text color to white for better contrast */
+     /* Add some padding for better appearance */
+  }
+  
+
+  .breaking-label {
+    font-weight: bold;
+    background-color: red; /* Set background color to red */
+    color: white; /* Set text color to white for better contrast */
+  }
+  
+  .breaking-news {
+    display: inline-block;
+    white-space: nowrap;
+    animation: ticker 10s linear infinite; /* Adjust speed as needed */
+  }
+  
+  @keyframes ticker {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+
+  
